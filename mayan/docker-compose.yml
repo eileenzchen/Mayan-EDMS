@@ -36,6 +36,7 @@ services:
     volumes:
       - /Users/eileenchen/Documents/CMU/Senior/17313/HW/HW1/Mayan-EDMS/docker-volumes/mayan-edms/media:/var/lib/mayan
       - /Users/eileenchen/Documents/CMU/Senior/17313/HW/HW1/Mayan-EDMS/mayan/apps/appearance/static/appearance/css:/opt/mayan-edms/lib/python3.7/site-packages/mayan/apps/appearance/static/appearance/css
+      - .:/app:rw
       # Optional volumes to access external data like staging or watch folders
       # - /opt/staging_files:/staging_files
       # - /opt/watch_folder:/watch_folder
