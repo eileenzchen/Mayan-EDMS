@@ -11,6 +11,18 @@
         url('../fonts/IM_Fell_English_SC.ttf') format('truetype');
 }
 
+.btn-default {
+    background-color: #3E4D51 !important;
+}
+
+.panel-footer .pull-left {
+    color: #5B361A !important;
+}
+
+svg.svg-inline--fa.fa-external-link-alt.fa-w-18 {
+    color: #5B361A !important;
+}
+
 body {
     padding-top: 60px;
 }
