@@ -27,7 +27,7 @@ services:
       # To add Python libraries, like LDAP, put then in the variable below.
       # MAYAN_PIP_INSTALLS: "python-ldap"
       FLASK_ENV: development
-    image: mayanedms/mayanedms:3.4.16
+    image: mayanedms/mayanedms:3.4.17
     networks:
       - bridge
     ports:
